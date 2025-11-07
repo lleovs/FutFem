@@ -13,6 +13,7 @@ interface PostCardProps {
   post: Post
   currentUser?: string
   onDelete?: (postId: string) => void
+    onUpdate?: () => void;
 }
 
 export function PostCard({ post, currentUser = "@marta10oficial", onDelete }: PostCardProps) {
