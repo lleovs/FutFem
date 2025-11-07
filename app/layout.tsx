@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: "FutFem",
   description: "",
   generator: "",
-
+}
 
 export default function RootLayout({
   children,
